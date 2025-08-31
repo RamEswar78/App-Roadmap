@@ -1,5 +1,8 @@
 main {
   display: flex;
+  max-width: 1540px;
+  min-width: 520px;
+  overflow: scroll;
   padding: 10px 0px;
   height: 85vh;
   gap: 15px;
@@ -10,7 +13,6 @@ main {
   gap: 15px;
   width: 100%;
 }
-
 
 app-middlebar {
   display: block; /* make width work */
@@ -32,6 +34,6 @@ app-middlebar {
   padding-bottom: 30px;
 }
 
-app-textcard{
+app-textcard {
   flex: 1;
 }

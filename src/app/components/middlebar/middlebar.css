@@ -7,6 +7,9 @@
   background-color: white;
   overflow: hidden;
   height: 100%;
+  max-width: 1540px;
+  /* min-width: 520px; */
+  overflow: scroll;
 }
 
 h3 {
