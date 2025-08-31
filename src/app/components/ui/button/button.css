@@ -1,0 +1,11 @@
+.clbutton {
+  border: none;
+  border-radius: 5px;
+  padding: 2px 8px;
+  color: white;
+}
+
+.clbutton.full-width {
+  width: 100%;   /* take full width of container */
+  display: block;
+}

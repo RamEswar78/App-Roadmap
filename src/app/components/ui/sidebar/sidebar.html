@@ -1,0 +1,7 @@
+<div class="sidebar">
+  @for (item of links; track $index) {
+    <a [href]="item.link">
+      <i class="{{ item.icon }}"></i>
+    </a>
+  }
+</div>

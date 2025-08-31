@@ -1,0 +1,20 @@
+<main>
+  <div>
+    <app-sidebar />
+  </div>
+
+  <div class="main-con">
+    <app-middlebar />
+    <div class="content-con">
+      <div class="card-con">
+        @for (item of cards; track $index) {
+        <app-cards [title]="item" />
+        }
+      </div>
+      <div class="textcards">
+        @for (texts of textcards; track $index) {
+        <app-textcard [title]="texts" />}
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  padding: 10px 0px;
+  height: 85vh;
+  gap: 15px;
+  background-color: rgb(239, 238, 237);
+}
+.main-con {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+
+app-middlebar {
+  display: block; /* make width work */
+  width: 30%; /* or any %/px you want */
+}
+
+.card-con {
+  display: flex;
+  gap: 5px;
+}
+.textcards {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+.content-con {
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+app-textcard{
+  flex: 1;
+}

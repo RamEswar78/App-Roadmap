@@ -1,0 +1,48 @@
+.middle-con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  height: 100%;
+}
+
+h3 {
+  background-color: #4db6ac;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  margin: 0;
+}
+
+.btncon {
+  padding: 10px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  padding: 12px 15px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.item:first-child {
+  border-top: none; /* cleaner look */
+}
+
+.item:hover {
+  background-color: #f1f1f1;
+}
+
+.item.selected {
+  background-color: #4db6ac;
+  color: white;
+  font-weight: 500;
+}

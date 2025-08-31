@@ -1,0 +1,15 @@
+<div class="middle-con">
+  <h3>Applications</h3>
+
+  <div class="btncon">
+    <app-button text="ADD NEW" icon="+" bgcolor="#4db6ac" [fullWidth]="true" height="40px" />
+  </div>
+
+  <div class="items">
+    @for (item of items; track $index) {
+    <div class="item" [class.selected]="selectedItem === item" (click)="selectItem(item)">
+      <i class="fa-solid fa-grip-lines"></i> {{ item.name }}
+    </div>
+    }
+  </div>
+</div>

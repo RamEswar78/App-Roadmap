@@ -1,0 +1,26 @@
+.card {
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  overflow: hidden;
+  height: 200px;
+  padding-bottom: 40px;
+}
+.card header {
+  background: #4db6ac;
+  color: white;
+  /* font-weight: bold; */
+  padding: 8px;
+}
+textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 2px;
+}
+
+textarea:focus {
+  border: none;
+}
